@@ -1,6 +1,6 @@
 #!/bin/bash
 
-curl "http://www.mc-download.com/index.php?action=downloadfile&filename=Minecraft%20server%201.12.2.jar&directory=Minecraft%20Versions%20Official/Minecraft%20Server" -o server.jar
-zip -ur server.jar customizations/*
+curl "https://launcher.mojang.com/mc/game/1.12.2/server/886945bfb2b978778c3a0288fd7fab09d315b25f/server.jar" -o server.jar
+zip -jur server.jar customizations/*
 
 
