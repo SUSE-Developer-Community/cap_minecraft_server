@@ -1,0 +1,8 @@
+applications:
+- name: MinecraftServer 
+  memory: 1G
+  disk_quota: 1G
+  buildpack: java_buildpack
+  path: server.jar
+  arguments: 
+  - nogui
