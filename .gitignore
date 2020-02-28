@@ -1,2 +1,5 @@
 server.jar
 
+spigot/logs/**
+spigot/plugins/dynmap/web/tiles/world/**
+spigot/plugins/dynmap/web/tiles/faces/**
