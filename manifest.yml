@@ -1,8 +1,9 @@
 applications:
 - name: MinecraftServer 
-  memory: 1G
-  disk_quota: 1G
+  memory: 2G
+  disk_quota: 2G
   buildpack: java_buildpack
   path: server.jar
+  health-check-type: process
   arguments: 
   - nogui
